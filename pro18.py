@@ -4,7 +4,7 @@ for i in range(n1):
   l1.append(input())
 for i in range(len(l1)):
   if('0' in l1[i]):
-    l1[i]=l[i].replace('0','')
+    l1[i]=l1[i].replace('0','')
   l1[i]=l1[i].replace(' ','')
 length=[]
 for i in l1:
