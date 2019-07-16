@@ -6,4 +6,4 @@ for i in range(q1):
   u1=t1[0]
   for i in range(1,len(t1)):
     u1=u1^t1[i]
-   print(u1)
+  print(u1)
