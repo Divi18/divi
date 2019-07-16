@@ -1,6 +1,6 @@
 n1,m1=map(int,input().split())
 l1=[]
-for _ in range(n):
+for i in range(n1):
   l1.append(input())
 for i in range(len(l1)):
   if('0' in l1[i]):
