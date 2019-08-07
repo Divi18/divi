@@ -12,4 +12,4 @@ l1.sort()
 s=""
 for i in l1:
   s+=str(i)+" "
-print(s)
+print(s[0:len(s)])
