@@ -10,6 +10,7 @@ if(N>=1 and N<=100000):
         l1.append(i)
 l1.sort()
 s=""
-for i in l1:
-  s+=str(i)+" "
+for i in range(0,len(l1)-1):
+  s+=str(l1[i])+" "
+s+=str(l1[len(l1)-1])
 print(s[0:len(s)])
