@@ -6,6 +6,7 @@ if(N>=1 and N<=100000):
     if(l.count(i)>1):
       l1=i
       flag=1
+      break
   if(flag==1):
     print(l1)
   else:
